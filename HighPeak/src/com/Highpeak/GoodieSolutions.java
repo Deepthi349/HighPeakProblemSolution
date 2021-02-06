@@ -26,6 +26,7 @@ public class GoodieSolutions {
 		FileInputStream fis=new FileInputStream("input.txt");       
 		Scanner sc=new Scanner(fis);
 		int number_of_employees = Integer.parseInt(sc.nextLine().split(": ")[1]);
+		sc.nextLine();sc.nextLine();sc.nextLine();
 		
 
 		ArrayList<Gift> goodies_items = new ArrayList<Gift>();
